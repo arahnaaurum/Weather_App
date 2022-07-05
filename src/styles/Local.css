@@ -1,0 +1,32 @@
+.local_container {
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.greeting {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: peru;
+}
+.forecast {
+    font-size: 24px;
+    color: peru;
+}
+
+@media screen and (max-width: 430px) {
+    .local_container {
+        margin: 24px 0px;
+    }
+    .greeting {
+        font-size: 30px;
+        margin: 0px auto;
+    }
+    .forecast {
+        text-align: center;
+        font-size: 24px;
+        color: peru;
+    }
+}

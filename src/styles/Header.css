@@ -1,0 +1,26 @@
+header {
+    padding: 24px 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.logoname {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+@media screen and (max-width: 430px) {
+    header {
+        border-radius: 5px;
+        padding: 20px 36px;
+    }
+    
+    .logoname {
+        font-size: 40px;
+        color: white;
+    }
+}
